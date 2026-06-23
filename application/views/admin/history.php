@@ -1,0 +1,1 @@
+<section class="admin-head"><div class="container"><div><span class="eyebrow">CUSTOMER INSIGHTS</span><h1>Try-on history</h1></div><a class="btn btn-light" href="<?= site_url('admin') ?>">Dashboard</a></div></section><section class="container admin-content"><div class="admin-card"><?php $this->load->view('admin/history_table', array('history'=>$history)); ?></div></section>
